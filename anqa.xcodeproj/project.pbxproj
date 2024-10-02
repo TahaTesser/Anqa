@@ -3,23 +3,91 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 55;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		24C67868883995AAB9811E1A /* TuistBundle+Anqa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA6BDD4183AEBFDB6C2B729 /* TuistBundle+Anqa.swift */; };
+		7DD4323023D53AA032F049D9 /* AnqaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C2EE1A893B9997A0572B7 /* AnqaApp.swift */; };
+		856411C45CFB49A38672A215 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218D1D1C595024B420580EB9 /* Kingfisher.framework */; };
+		859EBB0FAB4FE391944A01DF /* AnqaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FB209EC301941E4583219 /* AnqaTests.swift */; };
+		8F390007AB6182E36F667FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9C7D7EB14A0E63C33AA9E3 /* Assets.xcassets */; };
+		91FD7D8CB4B377C5384B315A /* Kingfisher_Kingfisher.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E64A4A0507EEF296DB5BDAA5 /* Kingfisher_Kingfisher.bundle */; };
+		CDEEC60945E02BAA6EE11FB1 /* TuistAssets+Anqa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881CBF0A2452A5DA07A682E7 /* TuistAssets+Anqa.swift */; };
+		D99E846F082D6F281E218BFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19BF0B1AF76AAE50C6CAF308 /* Preview Assets.xcassets */; };
+		F14EE9F8A82439821C061492 /* Kingfisher_Kingfisher.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = E64A4A0507EEF296DB5BDAA5 /* Kingfisher_Kingfisher.bundle */; };
+		F6B3BA7F7E56EA89951E80E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C583F4F66A6D2A42A22E5 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C97DCD849A6E52875A8FE84E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FB36051514C2C009CB6305E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9425AC82600AD13F90A1A51E;
+			remoteInfo = Anqa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5EE69142C4B4F6B39B638026 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC1D61B76C3D878A56711D9 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				F14EE9F8A82439821C061492 /* Kingfisher_Kingfisher.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B5E39B2F601EBCB1D97EAB60 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		041C68902C7688AF008F6F42 /* anqa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anqa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BF0B1AF76AAE50C6CAF308 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		218D1D1C595024B420580EB9 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		262FB209EC301941E4583219 /* AnqaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnqaTests.swift; sourceTree = "<group>"; };
+		27370AB11C4E3F74CA1F2BE6 /* AnqaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnqaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E406986D3BF7E3476CF5EED /* Anqa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anqa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		522C583F4F66A6D2A42A22E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E9C7D7EB14A0E63C33AA9E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C95B13BE44CE39E591B26DC /* Anqa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Anqa-Info.plist"; sourceTree = "<group>"; };
+		7FF5251901744E4806F26319 /* AnqaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AnqaTests-Info.plist"; sourceTree = "<group>"; };
+		881CBF0A2452A5DA07A682E7 /* TuistAssets+Anqa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+Anqa.swift"; sourceTree = "<group>"; };
+		AEA6BDD4183AEBFDB6C2B729 /* TuistBundle+Anqa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+Anqa.swift"; sourceTree = "<group>"; };
+		E64A4A0507EEF296DB5BDAA5 /* Kingfisher_Kingfisher.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kingfisher_Kingfisher.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7C2EE1A893B9997A0572B7 /* AnqaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnqaApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		041C68922C7688AF008F6F42 /* anqa */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = anqa;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		041C688D2C7688AF008F6F42 /* Frameworks */ = {
+		EBE58AD7009AE96927EADB72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856411C45CFB49A38672A215 /* Kingfisher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBE8A2E44D79CF4C33CC3AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,83 +97,190 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		041C68872C7688AF008F6F42 = {
+		1678F42DD08100E6BE066D59 = {
 			isa = PBXGroup;
 			children = (
-				041C68922C7688AF008F6F42 /* anqa */,
-				041C68912C7688AF008F6F42 /* Products */,
+				41065B56FA4ECF4398059C4D /* Project */,
+				4DBE75E5F95FB48108C9EB0E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		041C68912C7688AF008F6F42 /* Products */ = {
+		1C94B8725DADEABE51001A2F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				041C68902C7688AF008F6F42 /* anqa.app */,
+				FD7C2EE1A893B9997A0572B7 /* AnqaApp.swift */,
+				522C583F4F66A6D2A42A22E5 /* ContentView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		371CB5BABACFAE79C4A6C9B4 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				7C95B13BE44CE39E591B26DC /* Anqa-Info.plist */,
+				7FF5251901744E4806F26319 /* AnqaTests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		41065B56FA4ECF4398059C4D /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				D80E010E7D43EEFB2D345CCF /* Anqa */,
+				C0ED02137D9E3586FC5B736B /* Derived */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		42A9F8CBFE9EA93EE85480B6 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				262FB209EC301941E4583219 /* AnqaTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		4DBE75E5F95FB48108C9EB0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E406986D3BF7E3476CF5EED /* Anqa.app */,
+				27370AB11C4E3F74CA1F2BE6 /* AnqaTests.xctest */,
+				E64A4A0507EEF296DB5BDAA5 /* Kingfisher_Kingfisher.bundle */,
+				218D1D1C595024B420580EB9 /* Kingfisher.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5555CC146711CBAC08387A61 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				881CBF0A2452A5DA07A682E7 /* TuistAssets+Anqa.swift */,
+				AEA6BDD4183AEBFDB6C2B729 /* TuistBundle+Anqa.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5EE4452536E4F0A889E82143 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD03C68738AE5832C0E8FDDA /* Preview Content */,
+				6E9C7D7EB14A0E63C33AA9E3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AD03C68738AE5832C0E8FDDA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				19BF0B1AF76AAE50C6CAF308 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0ED02137D9E3586FC5B736B /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				371CB5BABACFAE79C4A6C9B4 /* InfoPlists */,
+				5555CC146711CBAC08387A61 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		D80E010E7D43EEFB2D345CCF /* Anqa */ = {
+			isa = PBXGroup;
+			children = (
+				5EE4452536E4F0A889E82143 /* Resources */,
+				1C94B8725DADEABE51001A2F /* Sources */,
+				42A9F8CBFE9EA93EE85480B6 /* Tests */,
+			);
+			path = Anqa;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		041C688F2C7688AF008F6F42 /* anqa */ = {
+		9425AC82600AD13F90A1A51E /* Anqa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 041C689E2C7688B0008F6F42 /* Build configuration list for PBXNativeTarget "anqa" */;
+			buildConfigurationList = 4F532EB50BC80454ACB9346E /* Build configuration list for PBXNativeTarget "Anqa" */;
 			buildPhases = (
-				041C688C2C7688AF008F6F42 /* Sources */,
-				041C688D2C7688AF008F6F42 /* Frameworks */,
-				041C688E2C7688AF008F6F42 /* Resources */,
+				3A2CD81C4442C3A1C143E812 /* Sources */,
+				5F19EB7324AF2839EB7956D3 /* Resources */,
+				5EE69142C4B4F6B39B638026 /* Embed Frameworks */,
+				EBE58AD7009AE96927EADB72 /* Frameworks */,
+				9EC1D61B76C3D878A56711D9 /* Dependencies */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				041C68922C7688AF008F6F42 /* anqa */,
-			);
-			name = anqa;
-			packageProductDependencies = (
-			);
-			productName = anqa;
-			productReference = 041C68902C7688AF008F6F42 /* anqa.app */;
+			name = Anqa;
+			productName = Anqa;
+			productReference = 3E406986D3BF7E3476CF5EED /* Anqa.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FA47050F22012BF7703BBFAF /* AnqaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F7BE5B3D5F813F8A20D127E /* Build configuration list for PBXNativeTarget "AnqaTests" */;
+			buildPhases = (
+				B723E589E705BA1833B92C96 /* Sources */,
+				C8FEDECBA9B476124AAC1EBF /* Resources */,
+				B5E39B2F601EBCB1D97EAB60 /* Embed Frameworks */,
+				FBBE8A2E44D79CF4C33CC3AD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D585E1829CBC71A1486C2EAF /* PBXTargetDependency */,
+			);
+			name = AnqaTests;
+			productName = AnqaTests;
+			productReference = 27370AB11C4E3F74CA1F2BE6 /* AnqaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		041C68882C7688AF008F6F42 /* Project object */ = {
+		6FB36051514C2C009CB6305E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				BuildIndependentTargetsInParallel = YES;
 				TargetAttributes = {
-					041C688F2C7688AF008F6F42 = {
-						CreatedOnToolsVersion = 16.0;
+					FA47050F22012BF7703BBFAF = {
+						TestTargetID = 9425AC82600AD13F90A1A51E;
 					};
 				};
 			};
-			buildConfigurationList = 041C688B2C7688AF008F6F42 /* Build configuration list for PBXProject "anqa" */;
+			buildConfigurationList = AABB36B1EE6C54C6CAA581F4 /* Build configuration list for PBXProject "Anqa" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = 041C68872C7688AF008F6F42;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = 041C68912C7688AF008F6F42 /* Products */;
+			mainGroup = 1678F42DD08100E6BE066D59;
+			productRefGroup = 4DBE75E5F95FB48108C9EB0E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				041C688F2C7688AF008F6F42 /* anqa */,
+				9425AC82600AD13F90A1A51E /* Anqa */,
+				FA47050F22012BF7703BBFAF /* AnqaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		041C688E2C7688AF008F6F42 /* Resources */ = {
+		5F19EB7324AF2839EB7956D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F390007AB6182E36F667FE7 /* Assets.xcassets in Resources */,
+				D99E846F082D6F281E218BFD /* Preview Assets.xcassets in Resources */,
+				91FD7D8CB4B377C5384B315A /* Kingfisher_Kingfisher.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8FEDECBA9B476124AAC1EBF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,24 +290,100 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		041C688C2C7688AF008F6F42 /* Sources */ = {
+		3A2CD81C4442C3A1C143E812 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD4323023D53AA032F049D9 /* AnqaApp.swift in Sources */,
+				F6B3BA7F7E56EA89951E80E9 /* ContentView.swift in Sources */,
+				CDEEC60945E02BAA6EE11FB1 /* TuistAssets+Anqa.swift in Sources */,
+				24C67868883995AAB9811E1A /* TuistBundle+Anqa.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B723E589E705BA1833B92C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859EBB0FAB4FE391944A01DF /* AnqaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D585E1829CBC71A1486C2EAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Anqa;
+			target = 9425AC82600AD13F90A1A51E /* Anqa */;
+			targetProxy = C97DCD849A6E52875A8FE84E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		041C689C2C7688B0008F6F42 /* Debug */ = {
+		0D8109600D1A4DDCC79B0205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/AnqaTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.AnqaTests;
+				PRODUCT_NAME = AnqaTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anqa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Anqa";
+				TEST_TARGET_NAME = Anqa;
+			};
+			name = Debug;
+		};
+		35570E6B93B0BAC144C38D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/Anqa-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.Anqa;
+				PRODUCT_NAME = Anqa;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7ADBFEC364BDA8F81C880E6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -159,11 +410,65 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SRCROOT = /Users/tahatesser/Projects/Anqa;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8332AEF757A4697A49CE7419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -177,153 +482,98 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SRCROOT = /Users/tahatesser/Projects/Anqa;
 			};
 			name = Debug;
 		};
-		041C689D2C7688B0008F6F42 /* Release */ = {
+		A8D9927C995953096E418B7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/AnqaTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.AnqaTests;
+				PRODUCT_NAME = AnqaTests;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anqa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Anqa";
+				TEST_TARGET_NAME = Anqa;
 			};
 			name = Release;
 		};
-		041C689F2C7688B0008F6F42 /* Debug */ = {
+		BAF3F811648320B11FB87B52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_ASSET_PATHS = "\"anqa/Preview Content\"";
-				DEVELOPMENT_TEAM = BT2TPGG8FS;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_FILE = "Derived/InfoPlists/Anqa-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tahatesser.anqa;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.Anqa;
+				PRODUCT_NAME = Anqa;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		041C68A02C7688B0008F6F42 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_ASSET_PATHS = "\"anqa/Preview Content\"";
-				DEVELOPMENT_TEAM = BT2TPGG8FS;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tahatesser.anqa;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		041C688B2C7688AF008F6F42 /* Build configuration list for PBXProject "anqa" */ = {
+		4F532EB50BC80454ACB9346E /* Build configuration list for PBXNativeTarget "Anqa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				041C689C2C7688B0008F6F42 /* Debug */,
-				041C689D2C7688B0008F6F42 /* Release */,
+				BAF3F811648320B11FB87B52 /* Debug */,
+				35570E6B93B0BAC144C38D06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		041C689E2C7688B0008F6F42 /* Build configuration list for PBXNativeTarget "anqa" */ = {
+		8F7BE5B3D5F813F8A20D127E /* Build configuration list for PBXNativeTarget "AnqaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				041C689F2C7688B0008F6F42 /* Debug */,
-				041C68A02C7688B0008F6F42 /* Release */,
+				0D8109600D1A4DDCC79B0205 /* Debug */,
+				A8D9927C995953096E418B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABB36B1EE6C54C6CAA581F4 /* Build configuration list for PBXProject "Anqa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8332AEF757A4697A49CE7419 /* Debug */,
+				7ADBFEC364BDA8F81C880E6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 041C68882C7688AF008F6F42 /* Project object */;
+	rootObject = 6FB36051514C2C009CB6305E /* Project object */;
 }
